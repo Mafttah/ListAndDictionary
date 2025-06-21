@@ -50,6 +50,35 @@ print(sehirler)
 #for full_name in sehirler:
    # print(full_name)
 
-#print("-----------")
-#sayilar = [1, 3, 5, 6, 7]
-#index     0  1  2  3  4
+print("-----------")
+sayilar = [1, 10, 15, 26, 37]
+
+
+sayilar.insert(1,5)
+sayilar.insert(1,6)
+sayilar.insert(2,13)
+sayilar.insert(4,30)
+print(sayilar)
+print("---------")
+
+sayilar.append("38, 40")
+print(sayilar)
+print("--------")
+
+sehirler.reverse()
+print(sehirler)
+print("------")
+
+Ulkeler =["Almanya", "İspanya", "Fransa", "İngiltere", "İskoçya"]
+
+sayilar.extend(Ulkeler)
+print(sayilar)
+print("--------")
+
+sayilar =["1, 10, 15, 26, 37"]
+sayilar.copy()
+print(sayilar)
+print("------")
+
+sayilar.clear()
+print(sayilar)
